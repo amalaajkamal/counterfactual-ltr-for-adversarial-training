@@ -1,0 +1,27 @@
+{
+  "dataset": "yandex",
+  "seed": 7,
+  "n_sessions_used": 4000,
+  "results": {
+    "auc": 0.7529286831363622,
+    "log_loss": 0.47620320304772873,
+    "pb_rho": -0.05961509192039627,
+    "pb_rho_p": 5.7432362438922e-14,
+    "ctr_at_1": 0.34845132743362833,
+    "ctr_at_5": 0.7278761061946902,
+    "mrr": 0.5188439387554432,
+    "naive_ctr_at_1": 0.5132743362831859,
+    "naive_ctr_at_5": 0.952433628318584,
+    "naive_mrr": 0.7034906588003933,
+    "n_serps_with_clicks": 904,
+    "n_eval_rows": 15860,
+    "position_classifier_probe": {
+      "chance_level": 0.1,
+      "accuracy_linear": 0.11349306431273644,
+      "accuracy_nonlinear": 0.1460697772173182,
+      "linear_vs_chance": 0.013493064312736433,
+      "nonlinear_vs_chance": 0.0460697772173182,
+      "n_positions": 10
+    }
+  }
+}

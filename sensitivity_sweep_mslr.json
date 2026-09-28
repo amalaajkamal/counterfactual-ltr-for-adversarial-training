@@ -1,0 +1,68 @@
+[
+  {
+    "setting": "theta_k = k^-0.5 (mild position bias)",
+    "theta_form": "power",
+    "theta_kappa": 0.5,
+    "Affine_NDCG10": 0.3367894160092912,
+    "Affine_IPSDCG": 4.972197084642552,
+    "betaVAE_NDCG10": 0.43365865252620445,
+    "betaVAE_IPSDCG": 6.241611629590594,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "setting": "theta_k = k^-0.7",
+    "theta_form": "power",
+    "theta_kappa": 0.7,
+    "Affine_NDCG10": 0.3169458863164759,
+    "Affine_IPSDCG": 4.580585722156466,
+    "betaVAE_NDCG10": 0.43388191114314495,
+    "betaVAE_IPSDCG": 6.258764271853203,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "setting": "theta_k = k^-0.9 (paper default)",
+    "theta_form": "power",
+    "theta_kappa": 0.9,
+    "Affine_NDCG10": 0.35433744139913165,
+    "Affine_IPSDCG": 5.1049199566554515,
+    "betaVAE_NDCG10": 0.43370312210997175,
+    "betaVAE_IPSDCG": 6.23328553823508,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "setting": "theta_k = k^-1.1",
+    "theta_form": "power",
+    "theta_kappa": 1.1,
+    "Affine_NDCG10": 0.33985527004239674,
+    "Affine_IPSDCG": 4.640121476947752,
+    "betaVAE_NDCG10": 0.4340796983707386,
+    "betaVAE_IPSDCG": 6.2771967112561775,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "setting": "theta_k = k^-1.3 (severe position bias)",
+    "theta_form": "power",
+    "theta_kappa": 1.3,
+    "Affine_NDCG10": 0.3573323844404551,
+    "Affine_IPSDCG": 5.063764050226876,
+    "betaVAE_NDCG10": 0.43273426626632255,
+    "betaVAE_IPSDCG": 6.310264593259836,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "setting": "theta_k = 1/log2(k+1) (alternative functional form)",
+    "theta_form": "log",
+    "theta_kappa": 1.3,
+    "Affine_NDCG10": 0.33936888634260265,
+    "Affine_IPSDCG": 4.923174805153491,
+    "betaVAE_NDCG10": 0.43380613344949526,
+    "betaVAE_IPSDCG": 6.281851439478289,
+    "betaVAE_wins_NDCG": true,
+    "betaVAE_wins_IPSDCG": true
+  }
+]
