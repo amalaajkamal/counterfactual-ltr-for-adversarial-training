@@ -1,0 +1,7 @@
+# Versions below are placeholders: replace with the output of `pip freeze` from the machine that produced the results.
+python>=3.9
+torch>=2.0
+numpy
+scipy
+scikit-learn
+matplotlib
