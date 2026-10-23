@@ -1,0 +1,176 @@
+{
+  "Full model": {
+    "NDCG10_mean": 0.7321242197432023,
+    "NDCG10_std": 0.0009325737033575193,
+    "IPSDCG_mean": 8.640827642731574,
+    "IPSDCG_std": 0.018307135094051897,
+    "delta_NDCG10_pct": 0.0,
+    "delta_IPSDCG_pct": 0.0,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "w/o adversarial training": {
+    "NDCG10_mean": 0.7325297725730466,
+    "NDCG10_std": 0.0020542629565101812,
+    "IPSDCG_mean": 8.625675057698837,
+    "IPSDCG_std": 0.021329803549234694,
+    "delta_NDCG10_pct": 0.05539399174454113,
+    "delta_IPSDCG_pct": -0.17536034346760007,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "w/o beta-annealing": {
+    "NDCG10_mean": 0.7315876875246105,
+    "NDCG10_std": 0.0019680978772734763,
+    "IPSDCG_mean": 8.643427551361484,
+    "IPSDCG_std": 0.06535542528982373,
+    "delta_NDCG10_pct": -0.07328431489126773,
+    "delta_IPSDCG_pct": 0.03008865281667874,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "w/o covariance penalty": {
+    "NDCG10_mean": 0.7332599117911686,
+    "NDCG10_std": 0.001052801227154089,
+    "IPSDCG_mean": 8.687665510872767,
+    "IPSDCG_std": 0.0842337539390691,
+    "delta_NDCG10_pct": 0.15512286267002826,
+    "delta_IPSDCG_pct": 0.5420530310032448,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "w/o pairwise ranking loss": {
+    "NDCG10_mean": 0.7322637105694427,
+    "NDCG10_std": 0.0017606784678941647,
+    "IPSDCG_mean": 8.640427944473263,
+    "IPSDCG_std": 0.0641499859332619,
+    "delta_NDCG10_pct": 0.01905289054490735,
+    "delta_IPSDCG_pct": -0.0046256941445608725,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "dual encoder w/o covariance or beta-VAE regularization": {
+    "NDCG10_mean": 0.7330911909844963,
+    "NDCG10_std": 0.001392326177429283,
+    "IPSDCG_mean": 8.624425860121418,
+    "IPSDCG_std": 0.04464077048455721,
+    "delta_NDCG10_pct": 0.13207748292129168,
+    "delta_IPSDCG_pct": -0.18981726390472645,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "single encoder (no separation)": {
+    "NDCG10_mean": 0.7328716137033631,
+    "NDCG10_std": 0.0009036472767750863,
+    "IPSDCG_mean": 8.659720757911284,
+    "IPSDCG_std": 0.05575899891581746,
+    "delta_NDCG10_pct": 0.1020856761743141,
+    "delta_IPSDCG_pct": 0.2186493697233038,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "simple position-adversarial ranker": {
+    "NDCG10_mean": 0.7317838160763227,
+    "NDCG10_std": 0.0016248331245566966,
+    "IPSDCG_mean": 8.585228411473206,
+    "IPSDCG_std": 0.06793180396576526,
+    "delta_NDCG10_pct": -0.04649534296229063,
+    "delta_IPSDCG_pct": -0.6434479838877066,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "reconstruction + adversarial, no explicit z_b": {
+    "NDCG10_mean": 0.7334268927495298,
+    "NDCG10_std": 0.002018043703889771,
+    "IPSDCG_mean": 8.642790150863004,
+    "IPSDCG_std": 0.08155009000812395,
+    "delta_NDCG10_pct": 0.17793059855121202,
+    "delta_IPSDCG_pct": 0.02271203885289834,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "simple_position_adversarial_ranker_probe": {
+    "accuracy_linear_mean": 0.12474217558963323,
+    "accuracy_linear_std": 0.003185149427885933,
+    "accuracy_nonlinear_mean": 0.12388126625414761,
+    "accuracy_nonlinear_std": 0.0024168194437961476,
+    "chance_level": 0.1,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  },
+  "reconstruction_adversarial_no_zb_probe": {
+    "accuracy_linear_mean": 0.1252443727019998,
+    "accuracy_linear_std": 0.0008731530047269759,
+    "accuracy_nonlinear_mean": 0.12379158819836786,
+    "accuracy_nonlinear_std": 0.0025306060503566432,
+    "chance_level": 0.1,
+    "seeds": [
+      42,
+      123,
+      7,
+      2024,
+      2026
+    ],
+    "n_seeds": 5
+  }
+}

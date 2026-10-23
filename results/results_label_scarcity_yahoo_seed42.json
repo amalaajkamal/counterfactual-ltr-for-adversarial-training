@@ -1,0 +1,134 @@
+{
+  "Supervised-Only@5pct": {
+    "label_fraction": 0.05,
+    "NDCG@10": 0.6794110616749736,
+    "IPS-DCG": 7.744395592663524,
+    "train_seconds": 20.44754409790039,
+    "n_labelled_queries": 63
+  },
+  "beta-VAE@5pct": {
+    "label_fraction": 0.05,
+    "NDCG@10": 0.6252472464894882,
+    "IPS-DCG": 6.552211360258896,
+    "train_seconds": 745.1976182460785,
+    "epochs_run": 30,
+    "n_labelled_queries": 63,
+    "diff_vs_supervised_NDCG@10": {
+      "mean_diff": -0.05416381518548537,
+      "t": -18.822646950849645,
+      "p": 1.2787770219609066e-75
+    },
+    "diff_vs_supervised_IPS-DCG": {
+      "mean_diff": -1.1921842324046275,
+      "t": -17.84440304020619,
+      "p": 1.9074912632337417e-68
+    }
+  },
+  "beta-VAE w/o adversarial@5pct": {
+    "label_fraction": 0.05,
+    "NDCG@10": 0.6293119033109262,
+    "IPS-DCG": 6.786411460285789,
+    "train_seconds": 620.2398853302002,
+    "epochs_run": 30,
+    "n_labelled_queries": 63
+  },
+  "Supervised-Only@25pct": {
+    "label_fraction": 0.25,
+    "NDCG@10": 0.7105029569061769,
+    "IPS-DCG": 8.246131591854246,
+    "train_seconds": 40.10538148880005,
+    "n_labelled_queries": 316
+  },
+  "beta-VAE@25pct": {
+    "label_fraction": 0.25,
+    "NDCG@10": 0.7047393560380091,
+    "IPS-DCG": 8.064341444207164,
+    "train_seconds": 656.2626821994781,
+    "epochs_run": 30,
+    "n_labelled_queries": 316,
+    "diff_vs_supervised_NDCG@10": {
+      "mean_diff": -0.005763600868167947,
+      "t": -2.714671069781759,
+      "p": 0.00666429235058705
+    },
+    "diff_vs_supervised_IPS-DCG": {
+      "mean_diff": -0.18179014764708334,
+      "t": -4.407494595369758,
+      "p": 1.0747701730139998e-05
+    }
+  },
+  "beta-VAE w/o adversarial@25pct": {
+    "label_fraction": 0.25,
+    "NDCG@10": 0.708335343495448,
+    "IPS-DCG": 8.182880206647903,
+    "train_seconds": 624.718670129776,
+    "epochs_run": 30,
+    "n_labelled_queries": 316
+  },
+  "Supervised-Only@1pct": {
+    "label_fraction": 0.01,
+    "NDCG@10": 0.6137033393102445,
+    "IPS-DCG": 6.553089723803491,
+    "train_seconds": 13.786470174789429,
+    "n_labelled_queries": 13
+  },
+  "beta-VAE@1pct": {
+    "label_fraction": 0.01,
+    "NDCG@10": 0.5722473261362179,
+    "IPS-DCG": 5.312172067557997,
+    "train_seconds": 634.9043853282928,
+    "epochs_run": 30,
+    "n_labelled_queries": 13,
+    "diff_vs_supervised_NDCG@10": {
+      "mean_diff": -0.041456013174026606,
+      "t": -10.932853161082893,
+      "p": 2.0571762721779037e-27
+    },
+    "diff_vs_supervised_IPS-DCG": {
+      "mean_diff": -1.2409176562454935,
+      "t": -14.742246524006298,
+      "p": 7.193186097119882e-48
+    }
+  },
+  "beta-VAE w/o adversarial@1pct": {
+    "label_fraction": 0.01,
+    "NDCG@10": 0.5924616560788541,
+    "IPS-DCG": 5.747107812980306,
+    "train_seconds": 916.3140099048615,
+    "epochs_run": 30,
+    "n_labelled_queries": 13
+  },
+  "Supervised-Only@10pct": {
+    "label_fraction": 0.1,
+    "NDCG@10": 0.6967664430192676,
+    "IPS-DCG": 8.069518084323432,
+    "train_seconds": 26.291959762573242,
+    "n_labelled_queries": 126
+  },
+  "beta-VAE@10pct": {
+    "label_fraction": 0.1,
+    "NDCG@10": 0.67741554759301,
+    "IPS-DCG": 7.508337988184875,
+    "train_seconds": 6519.789887666702,
+    "epochs_run": 30,
+    "n_labelled_queries": 126,
+    "diff_vs_supervised_NDCG@10": {
+      "mean_diff": -0.01935089542625745,
+      "t": -8.009445763190907,
+      "p": 1.5207838377780117e-15
+    },
+    "diff_vs_supervised_IPS-DCG": {
+      "mean_diff": -0.5611800961385569,
+      "t": -10.9331418762094,
+      "p": 2.0508397848407254e-27
+    }
+  },
+  "beta-VAE w/o adversarial@10pct": {
+    "label_fraction": 0.1,
+    "NDCG@10": 0.6862642485598885,
+    "IPS-DCG": 7.733315977921697,
+    "train_seconds": 675.5631439685822,
+    "epochs_run": 30,
+    "n_labelled_queries": 126
+  }
+}

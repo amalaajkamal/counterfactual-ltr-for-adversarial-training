@@ -1,0 +1,50 @@
+[
+  {
+    "eval_setting": "theta_eval = k^-0.5 (mismatched, mild)",
+    "theta_form_eval": "power",
+    "theta_kappa_eval": 0.5,
+    "training_theta_kappa": 0.9,
+    "is_matched": false,
+    "Affine_NDCG10": 0.6444953063453632,
+    "Affine_IPSDCG": 7.288239674082814,
+    "betaVAE_NDCG10": 0.7291834477608321,
+    "betaVAE_IPSDCG": 8.561710138085289,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "eval_setting": "theta_eval = k^-0.9 (matched, sanity check)",
+    "theta_form_eval": "power",
+    "theta_kappa_eval": 0.9,
+    "training_theta_kappa": 0.9,
+    "is_matched": true,
+    "Affine_NDCG10": 0.6444953063453632,
+    "Affine_IPSDCG": 7.279699071116739,
+    "betaVAE_NDCG10": 0.7291834477608321,
+    "betaVAE_IPSDCG": 8.539793075928992,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "eval_setting": "theta_eval = k^-1.3 (mismatched, severe)",
+    "theta_form_eval": "power",
+    "theta_kappa_eval": 1.3,
+    "training_theta_kappa": 0.9,
+    "is_matched": false,
+    "Affine_NDCG10": 0.6444953063453632,
+    "Affine_IPSDCG": 7.233973581703776,
+    "betaVAE_NDCG10": 0.7291834477608321,
+    "betaVAE_IPSDCG": 8.531185767246772,
+    "betaVAE_wins_IPSDCG": true
+  },
+  {
+    "eval_setting": "theta_eval = 1/log2(k+1) (mismatched, different functional form)",
+    "theta_form_eval": "log",
+    "theta_kappa_eval": 1.3,
+    "training_theta_kappa": 0.9,
+    "is_matched": false,
+    "Affine_NDCG10": 0.6444953063453632,
+    "Affine_IPSDCG": 7.281195450938904,
+    "betaVAE_NDCG10": 0.7291834477608321,
+    "betaVAE_IPSDCG": 8.594895530282994,
+    "betaVAE_wins_IPSDCG": true
+  }
+]

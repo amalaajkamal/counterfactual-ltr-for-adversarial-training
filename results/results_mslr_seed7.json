@@ -1,0 +1,262 @@
+{
+  "dataset": "mslr",
+  "results": {
+    "Naive Baseline": {
+      "NDCG@10": 0.3483099562547194,
+      "IPS-DCG": 4.805470205661957
+    },
+    "Supervised-Only": {
+      "NDCG@10": 0.43139042549272,
+      "IPS-DCG": 6.2434128931404
+    },
+    "IPS (ground-truth)": {
+      "NDCG@10": 0.29193664088538596,
+      "IPS-DCG": 2.9914017879593766
+    },
+    "Regression-EM": {
+      "NDCG@10": 0.2971555420615427,
+      "IPS-DCG": 3.0902616504707026
+    },
+    "Bayes-IPS": {
+      "NDCG@10": 0.28491049597944934,
+      "IPS-DCG": 3.0147980668284657
+    },
+    "Affine (ground-truth)": {
+      "NDCG@10": 0.3418991823478654,
+      "IPS-DCG": 4.925416612127224
+    },
+    "Affine (estimated)": {
+      "NDCG@10": 0.3493447397986491,
+      "IPS-DCG": 5.379522244032441
+    },
+    "IPS (estimated)": {
+      "NDCG@10": 0.27088259283593324,
+      "IPS-DCG": 2.9729959954965555
+    },
+    "InfoRank": {
+      "NDCG@10": 0.3396673915968026,
+      "IPS-DCG": 4.742319004970263
+    },
+    "beta-VAE (Ours)": {
+      "NDCG@10": 0.4357114305822474,
+      "IPS-DCG": 6.281104923084572
+    }
+  },
+  "ttests": {
+    "Supervised-Only": {
+      "NDCG@10": {
+        "method": "Supervised-Only",
+        "mean_diff": 0.08308046923800061,
+        "t_stat": 36.791592608767836,
+        "p_value": 1.4931606354281677e-268
+      },
+      "IPS-DCG": {
+        "method": "Supervised-Only",
+        "mean_diff": 1.4379426874784427,
+        "t_stat": 21.88785768704504,
+        "p_value": 2.088975147562391e-102
+      }
+    },
+    "IPS (ground-truth)": {
+      "NDCG@10": {
+        "method": "IPS (ground-truth)",
+        "mean_diff": -0.05637331536933343,
+        "t_stat": -23.70785575514079,
+        "p_value": 4.4280219441811334e-119
+      },
+      "IPS-DCG": {
+        "method": "IPS (ground-truth)",
+        "mean_diff": -1.8140684177025808,
+        "t_stat": -27.52940118411689,
+        "p_value": 1.2773905061392607e-157
+      }
+    },
+    "Regression-EM": {
+      "NDCG@10": {
+        "method": "Regression-EM",
+        "mean_diff": -0.05115441419317668,
+        "t_stat": -22.150954133877885,
+        "p_value": 9.535455749037976e-105
+      },
+      "IPS-DCG": {
+        "method": "Regression-EM",
+        "mean_diff": -1.7152085551912548,
+        "t_stat": -26.563310794774537,
+        "p_value": 1.926516635608382e-147
+      }
+    },
+    "Bayes-IPS": {
+      "NDCG@10": {
+        "method": "Bayes-IPS",
+        "mean_diff": -0.06339946027527005,
+        "t_stat": -27.515411313868658,
+        "p_value": 1.8020022691298657e-157
+      },
+      "IPS-DCG": {
+        "method": "Bayes-IPS",
+        "mean_diff": -1.7906721388334916,
+        "t_stat": -27.39849239148385,
+        "p_value": 3.1789909778772087e-156
+      }
+    },
+    "Affine (ground-truth)": {
+      "NDCG@10": {
+        "method": "Affine (ground-truth)",
+        "mean_diff": -0.0064107739068539615,
+        "t_stat": -4.59585237527507,
+        "p_value": 4.39405413170751e-06
+      },
+      "IPS-DCG": {
+        "method": "Affine (ground-truth)",
+        "mean_diff": 0.11994640646526644,
+        "t_stat": 3.09776567027204,
+        "p_value": 0.0019584545377183465
+      }
+    },
+    "Affine (estimated)": {
+      "NDCG@10": {
+        "method": "Affine (estimated)",
+        "mean_diff": 0.0010347835439297182,
+        "t_stat": 0.6352111844314292,
+        "p_value": 0.5253138106121511
+      },
+      "IPS-DCG": {
+        "method": "Affine (estimated)",
+        "mean_diff": 0.5740520383704837,
+        "t_stat": 13.095019618250742,
+        "p_value": 1.1238288020379892e-38
+      }
+    },
+    "IPS (estimated)": {
+      "NDCG@10": {
+        "method": "IPS (estimated)",
+        "mean_diff": -0.07742736341878614,
+        "t_stat": -31.778248372567873,
+        "p_value": 1.1844468153136895e-205
+      },
+      "IPS-DCG": {
+        "method": "IPS (estimated)",
+        "mean_diff": -1.832474210165402,
+        "t_stat": -27.149072626278862,
+        "p_value": 1.4046052926283226e-153
+      }
+    },
+    "InfoRank": {
+      "NDCG@10": {
+        "method": "InfoRank",
+        "mean_diff": -0.008642564657916796,
+        "t_stat": -5.720859385240905,
+        "p_value": 1.108668564112737e-08
+      },
+      "IPS-DCG": {
+        "method": "InfoRank",
+        "mean_diff": -0.06315120069169478,
+        "t_stat": -1.5584161916789392,
+        "p_value": 0.11918496220636343
+      }
+    },
+    "beta-VAE (Ours)": {
+      "NDCG@10": {
+        "method": "beta-VAE (Ours)",
+        "mean_diff": 0.08740147432752804,
+        "t_stat": 40.214466148346304,
+        "p_value": 0.0
+      },
+      "IPS-DCG": {
+        "method": "beta-VAE (Ours)",
+        "mean_diff": 1.475634717422615,
+        "t_stat": 25.38654050084031,
+        "p_value": 1.9503483984612995e-135
+      }
+    },
+    "beta-VAE vs Supervised-Only": {
+      "NDCG@10": {
+        "method": "beta-VAE vs Supervised-Only",
+        "mean_diff": 0.00432100508952743,
+        "t_stat": 2.5138877969652285,
+        "p_value": 0.011965628741380303
+      },
+      "IPS-DCG": {
+        "method": "beta-VAE vs Supervised-Only",
+        "mean_diff": 0.03769202994417231,
+        "t_stat": 0.6723320049419143,
+        "p_value": 0.5013970704103814
+      }
+    }
+  },
+  "theta_est_regression_em": {
+    "1": 0.7668855339288712,
+    "2": 0.2878046176138468,
+    "3": 0.17128815414196455,
+    "4": 0.11950532317396229,
+    "5": 0.09109756939375221,
+    "6": 0.07426587947723137,
+    "7": 0.06194799491428251,
+    "8": 0.05227398034162995,
+    "9": 0.04657001005164863,
+    "10": 0.04007005966128363
+  },
+  "theta_hat_ips_estimated": {
+    "1": 1.0,
+    "2": 0.27070063694267515,
+    "3": 0.1373806581288281,
+    "4": 0.07528076882487311,
+    "5": 0.04742813892457833,
+    "6": 0.045161909593906195,
+    "7": 0.03229326817482978,
+    "8": 0.021013267921313188,
+    "9": 0.01944931500242858,
+    "10": 0.014634475083894647
+  },
+  "disentanglement_metrics": {
+    "z_r (relevance space) vs relevance": {
+      "MIG": 0.0005407590168225174,
+      "SAP": 0.033876657485961914
+    },
+    "z_r (relevance space) vs position": {
+      "MIG": 0.00011187836569829162,
+      "SAP": 0.0002949237823486328
+    },
+    "z_b (bias space) vs relevance": {
+      "MIG": 0.003212309101103759,
+      "SAP": 0.027046918869018555
+    },
+    "z_b (bias space) vs position": {
+      "MIG": 0.007387747835530113,
+      "SAP": 0.09905928373336792
+    },
+    "position_classifier_probe_zr": {
+      "accuracy_linear": 0.10906856196227221,
+      "accuracy_nonlinear": 0.10821354138833966,
+      "chance_level": 0.1,
+      "linear_vs_chance": 0.009068561962272209,
+      "nonlinear_vs_chance": 0.008213541388339657
+    },
+    "silhouette_score_zb_position": {
+      "silhouette_score": 0.9748286008834839,
+      "n_samples": 2000
+    },
+    "block_informativeness": {
+      "z_r (relevance space) vs relevance": {
+        "R2_linear": 0.2997714877128601,
+        "R2_nonlinear": 0.31260595896982657
+      },
+      "z_r (relevance space) vs position": {
+        "R2_linear": 0.016392111778259277,
+        "R2_nonlinear": 0.015244573848896104
+      },
+      "z_b (bias space) vs relevance": {
+        "R2_linear": 0.15720045566558838,
+        "R2_nonlinear": 0.2789757952732148
+      },
+      "z_b (bias space) vs position": {
+        "R2_linear": 0.9979103207588196,
+        "R2_nonlinear": 0.9987702619738708
+      }
+    }
+  },
+  "beta_vae_training_time_seconds": 17573.91455411911,
+  "beta_vae_epochs_run": 75,
+  "device": "cuda",
+  "seed": 7
+}

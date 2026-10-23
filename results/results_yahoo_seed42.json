@@ -1,0 +1,284 @@
+{
+  "dataset": "yahoo",
+  "results": {
+    "Naive Baseline": {
+      "NDCG@10": 0.6185673629569485,
+      "IPS-DCG": 6.982987055242878
+    },
+    "Supervised-Only": {
+      "NDCG@10": 0.7344825846433366,
+      "IPS-DCG": 8.593827473586893
+    },
+    "IPS (ground-truth)": {
+      "NDCG@10": 0.6389617186142492,
+      "IPS-DCG": 6.950812836357677
+    },
+    "Regression-EM": {
+      "NDCG@10": 0.6613261817504164,
+      "IPS-DCG": 7.450453437600848
+    },
+    "Bayes-IPS": {
+      "NDCG@10": 0.6328859216834488,
+      "IPS-DCG": 6.971435878110671
+    },
+    "Affine (ground-truth)": {
+      "NDCG@10": 0.6269319825330454,
+      "IPS-DCG": 7.151240098735066
+    },
+    "Affine (estimated)": {
+      "NDCG@10": 0.6207308779702888,
+      "IPS-DCG": 7.063599739497515
+    },
+    "IPS (estimated)": {
+      "NDCG@10": 0.6476641943726548,
+      "IPS-DCG": 7.237201434145343
+    },
+    "InfoRank": {
+      "NDCG@10": 0.6236377540590664,
+      "IPS-DCG": 6.9681115707421055
+    },
+    "beta-VAE (Ours)": {
+      "NDCG@10": 0.727123292528355,
+      "IPS-DCG": 8.575313114654922
+    }
+  },
+  "ttests": {
+    "Supervised-Only": {
+      "NDCG@10": {
+        "method": "Supervised-Only",
+        "mean_diff": 0.11591522168638813,
+        "t_stat": 36.325300474088316,
+        "p_value": 4.308427659185291e-248
+      },
+      "IPS-DCG": {
+        "method": "Supervised-Only",
+        "mean_diff": 1.610840418344015,
+        "t_stat": 24.02686397762173,
+        "p_value": 7.792443761189417e-119
+      }
+    },
+    "IPS (ground-truth)": {
+      "NDCG@10": {
+        "method": "IPS (ground-truth)",
+        "mean_diff": 0.020394355657300745,
+        "t_stat": 6.432611296937658,
+        "p_value": 1.4111240303168845e-10
+      },
+      "IPS-DCG": {
+        "method": "IPS (ground-truth)",
+        "mean_diff": -0.032174218885201,
+        "t_stat": -0.4755328845086844,
+        "p_value": 0.6344346780419476
+      }
+    },
+    "Regression-EM": {
+      "NDCG@10": {
+        "method": "Regression-EM",
+        "mean_diff": 0.04275881879346788,
+        "t_stat": 13.92022333189521,
+        "p_value": 5.404011979023088e-43
+      },
+      "IPS-DCG": {
+        "method": "Regression-EM",
+        "mean_diff": 0.4674663823579701,
+        "t_stat": 7.035300696311179,
+        "p_value": 2.349868970673043e-12
+      }
+    },
+    "Bayes-IPS": {
+      "NDCG@10": {
+        "method": "Bayes-IPS",
+        "mean_diff": 0.014318558726500341,
+        "t_stat": 4.636301964256477,
+        "p_value": 3.66682568856307e-06
+      },
+      "IPS-DCG": {
+        "method": "Bayes-IPS",
+        "mean_diff": -0.011551177132207435,
+        "t_stat": -0.17469141058649995,
+        "p_value": 0.8613314729945094
+      }
+    },
+    "Affine (ground-truth)": {
+      "NDCG@10": {
+        "method": "Affine (ground-truth)",
+        "mean_diff": 0.00836461957609691,
+        "t_stat": 3.6148305535908043,
+        "p_value": 0.00030446209455663593
+      },
+      "IPS-DCG": {
+        "method": "Affine (ground-truth)",
+        "mean_diff": 0.16825304349218762,
+        "t_stat": 3.126268138020079,
+        "p_value": 0.0017838404152231248
+      }
+    },
+    "Affine (estimated)": {
+      "NDCG@10": {
+        "method": "Affine (estimated)",
+        "mean_diff": 0.0021635150133403336,
+        "t_stat": 0.8595575006100776,
+        "p_value": 0.39008751870868996
+      },
+      "IPS-DCG": {
+        "method": "Affine (estimated)",
+        "mean_diff": 0.08061268425463641,
+        "t_stat": 1.3885833200853697,
+        "p_value": 0.1650413071834135
+      }
+    },
+    "IPS (estimated)": {
+      "NDCG@10": {
+        "method": "IPS (estimated)",
+        "mean_diff": 0.029096831415706292,
+        "t_stat": 10.3795296376934,
+        "p_value": 6.619089297025831e-25
+      },
+      "IPS-DCG": {
+        "method": "IPS (estimated)",
+        "mean_diff": 0.25421437890246423,
+        "t_stat": 4.253472873894058,
+        "p_value": 2.1557613496475725e-05
+      }
+    },
+    "InfoRank": {
+      "NDCG@10": {
+        "method": "InfoRank",
+        "mean_diff": 0.005070391102117933,
+        "t_stat": 2.019795942985414,
+        "p_value": 0.04347498117369881
+      },
+      "IPS-DCG": {
+        "method": "InfoRank",
+        "mean_diff": -0.014875484500772806,
+        "t_stat": -0.26602444639733674,
+        "p_value": 0.7902348902009018
+      }
+    },
+    "beta-VAE (Ours)": {
+      "NDCG@10": {
+        "method": "beta-VAE (Ours)",
+        "mean_diff": 0.10855592957140647,
+        "t_stat": 33.11050988653086,
+        "p_value": 2.5379166669757464e-211
+      },
+      "IPS-DCG": {
+        "method": "beta-VAE (Ours)",
+        "mean_diff": 1.5923260594120432,
+        "t_stat": 22.683717999750623,
+        "p_value": 6.576355678319958e-107
+      }
+    },
+    "beta-VAE vs Supervised-Only": {
+      "NDCG@10": {
+        "method": "beta-VAE vs Supervised-Only",
+        "mean_diff": -0.007359292114981653,
+        "t_stat": -4.003230239969637,
+        "p_value": 6.368260274518887e-05
+      },
+      "IPS-DCG": {
+        "method": "beta-VAE vs Supervised-Only",
+        "mean_diff": -0.01851435893197184,
+        "t_stat": -0.4381640264155577,
+        "p_value": 0.6612924214377007
+      }
+    },
+    "beta-VAE vs Affine (ground-truth)": {
+      "NDCG@10": {
+        "method": "beta-VAE vs Affine (ground-truth)",
+        "mean_diff": 0.10019130999530956,
+        "t_stat": 32.05666243306307,
+        "p_value": 1.142092014564734e-199
+      },
+      "IPS-DCG": {
+        "method": "beta-VAE vs Affine (ground-truth)",
+        "mean_diff": 1.4240730159198556,
+        "t_stat": 22.043115529531445,
+        "p_value": 2.106428386838482e-101
+      }
+    }
+  },
+  "theta_est_regression_em": {
+    "1": 0.8645009994506836,
+    "2": 0.38878504014073756,
+    "3": 0.24458683479202198,
+    "4": 0.1787594550894941,
+    "5": 0.1395328460686171,
+    "6": 0.11458146086120342,
+    "7": 0.09771263795421352,
+    "8": 0.08592623379037136,
+    "9": 0.07744467730923656,
+    "10": 0.07005953686031607
+  },
+  "theta_hat_ips_estimated": {
+    "1": 1.0,
+    "2": 0.3333333333333333,
+    "3": 0.15053763440860213,
+    "4": 0.07526881720430106,
+    "5": 0.08852755194218608,
+    "6": 0.05058717253839205,
+    "7": 0.012646793134598013,
+    "8": 0.03825136612021857,
+    "9": 0.03825136612021857,
+    "10": 0.051423324150596875
+  },
+  "disentanglement_metrics": {
+    "cross_correlation": {
+      "mean_abs_cross_correlation": 0.06987228244543076,
+      "std_cross_correlation": 0.08357080072164536,
+      "matrix_shape": [
+        24,
+        16
+      ]
+    },
+    "z_r (relevance space) vs relevance": {
+      "MIG": 0.0022025869007259308,
+      "SAP": 0.005071461200714111
+    },
+    "z_r (relevance space) vs position": {
+      "MIG": 0.0008151169000681456,
+      "SAP": 0.0012070536613464355
+    },
+    "z_b (bias space) vs relevance": {
+      "MIG": 0.001584521451981834,
+      "SAP": 0.009191453456878662
+    },
+    "z_b (bias space) vs position": {
+      "MIG": 0.030508297436379336,
+      "SAP": 0.05587780475616455
+    },
+    "position_classifier_probe_zr": {
+      "accuracy_linear": 0.12653573670522822,
+      "accuracy_nonlinear": 0.12563895614743073,
+      "chance_level": 0.1,
+      "linear_vs_chance": 0.026535736705228213,
+      "nonlinear_vs_chance": 0.025638956147430725
+    },
+    "silhouette_score_zb_position": {
+      "silhouette_score": 0.5136610269546509,
+      "n_samples": 2000
+    },
+    "block_informativeness": {
+      "z_r (relevance space) vs relevance": {
+        "R2_linear": 0.3330541253089905,
+        "R2_nonlinear": 0.4465323000276358
+      },
+      "z_r (relevance space) vs position": {
+        "R2_linear": 0.03157705068588257,
+        "R2_nonlinear": 0.05904388242305947
+      },
+      "z_b (bias space) vs relevance": {
+        "R2_linear": 0.3309178352355957,
+        "R2_nonlinear": 0.3799789722061898
+      },
+      "z_b (bias space) vs position": {
+        "R2_linear": 0.8840293884277344,
+        "R2_nonlinear": 0.9971775108844377
+      }
+    }
+  },
+  "beta_vae_training_time_seconds": 969.6587159633636,
+  "beta_vae_epochs_run": 46,
+  "device": "cuda",
+  "seed": 42
+}

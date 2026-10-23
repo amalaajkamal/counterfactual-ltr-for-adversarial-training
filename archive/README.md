@@ -1,0 +1,1 @@
+Earlier exploratory notebooks (including an incomplete attempt at the gradient reversal two tower model of Zhang et al., KDD 2023). They are kept for provenance. No number in the paper comes from them. Move the notebooks from the repository root into this folder.

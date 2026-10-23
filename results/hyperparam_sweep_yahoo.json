@@ -1,0 +1,101 @@
+[
+  {
+    "hyperparameter": "lambda_rank",
+    "value": 1.0,
+    "is_default": false,
+    "NDCG10": 0.7251180912547526,
+    "IPSDCG": 8.386165032441225,
+    "delta_NDCG10_pct": 0.0698739509347153,
+    "delta_IPSDCG_pct": -0.9689035904412989
+  },
+  {
+    "hyperparameter": "lambda_rank",
+    "value": 1.5,
+    "is_default": false,
+    "NDCG10": 0.7235831058561804,
+    "IPSDCG": 8.497094277271973,
+    "delta_NDCG10_pct": -0.14196160689262574,
+    "delta_IPSDCG_pct": 0.341044961367189
+  },
+  {
+    "hyperparameter": "lambda_rank",
+    "value": 2.0,
+    "is_default": true,
+    "NDCG10": 0.7246117763776593,
+    "IPSDCG": 8.468213860582658,
+    "delta_NDCG10_pct": 0.0,
+    "delta_IPSDCG_pct": 0.0
+  },
+  {
+    "hyperparameter": "lambda_rank",
+    "value": 2.5,
+    "is_default": false,
+    "NDCG10": 0.7240131516942471,
+    "IPSDCG": 8.472895734084602,
+    "delta_NDCG10_pct": -0.08261315961558587,
+    "delta_IPSDCG_pct": 0.0552876152991031
+  },
+  {
+    "hyperparameter": "lambda_rank",
+    "value": 3.0,
+    "is_default": false,
+    "NDCG10": 0.7237570951452114,
+    "IPSDCG": 8.538050226082232,
+    "delta_NDCG10_pct": -0.11795022663314653,
+    "delta_IPSDCG_pct": 0.8246882595235857
+  },
+  {
+    "hyperparameter": "lambda_cov",
+    "value": 0.0001,
+    "is_default": false,
+    "NDCG10": 0.7234831856287578,
+    "IPSDCG": 8.473171861905618,
+    "delta_NDCG10_pct": 0.22296533027343904,
+    "delta_IPSDCG_pct": -0.5322969413622254
+  },
+  {
+    "hyperparameter": "lambda_cov",
+    "value": 0.001,
+    "is_default": true,
+    "NDCG10": 0.7218736576438353,
+    "IPSDCG": 8.518515660214401,
+    "delta_NDCG10_pct": 0.0,
+    "delta_IPSDCG_pct": 0.0
+  },
+  {
+    "hyperparameter": "lambda_cov",
+    "value": 0.01,
+    "is_default": false,
+    "NDCG10": 0.7207171552936062,
+    "IPSDCG": 8.508741694781795,
+    "delta_NDCG10_pct": -0.16020841569476166,
+    "delta_IPSDCG_pct": -0.11473789357757537
+  },
+  {
+    "hyperparameter": "lambda_adv_max",
+    "value": 0.5,
+    "is_default": false,
+    "NDCG10": 0.7211734323420276,
+    "IPSDCG": 8.444449970898804,
+    "delta_NDCG10_pct": 0.10327356494177113,
+    "delta_IPSDCG_pct": 1.023164859666563
+  },
+  {
+    "hyperparameter": "lambda_adv_max",
+    "value": 0.75,
+    "is_default": false,
+    "NDCG10": 0.719994231868758,
+    "IPSDCG": 8.429745739270544,
+    "delta_NDCG10_pct": -0.06040665713777793,
+    "delta_IPSDCG_pct": 0.8472542886956159
+  },
+  {
+    "hyperparameter": "lambda_adv_max",
+    "value": 1.0,
+    "is_default": true,
+    "NDCG10": 0.7204294191979326,
+    "IPSDCG": 8.358924393854785,
+    "delta_NDCG10_pct": 0.0,
+    "delta_IPSDCG_pct": 0.0
+  }
+]

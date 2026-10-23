@@ -1,0 +1,98 @@
+[
+  {
+    "kappa": 0.5,
+    "adv_enabled": true,
+    "kl_reg_enabled": true,
+    "label": "full (adv=on, KL=on)",
+    "NDCG10": 0.7234622646890296,
+    "IPSDCG": 8.476961956294291
+  },
+  {
+    "kappa": 0.5,
+    "adv_enabled": true,
+    "kl_reg_enabled": false,
+    "label": "adv=on, KL=off",
+    "NDCG10": 0.725526591574672,
+    "IPSDCG": 8.4446893877772
+  },
+  {
+    "kappa": 0.5,
+    "adv_enabled": false,
+    "kl_reg_enabled": true,
+    "label": "adv=off, KL=on",
+    "NDCG10": 0.7212704498333894,
+    "IPSDCG": 8.446580983735638
+  },
+  {
+    "kappa": 0.5,
+    "adv_enabled": false,
+    "kl_reg_enabled": false,
+    "label": "both off",
+    "NDCG10": 0.7227429224191263,
+    "IPSDCG": 8.382667772717474
+  },
+  {
+    "kappa": 0.9,
+    "adv_enabled": true,
+    "kl_reg_enabled": true,
+    "label": "full (adv=on, KL=on)",
+    "NDCG10": 0.7191640148431596,
+    "IPSDCG": 8.499248815270208
+  },
+  {
+    "kappa": 0.9,
+    "adv_enabled": true,
+    "kl_reg_enabled": false,
+    "label": "adv=on, KL=off",
+    "NDCG10": 0.7239561398946073,
+    "IPSDCG": 8.446145031083827
+  },
+  {
+    "kappa": 0.9,
+    "adv_enabled": false,
+    "kl_reg_enabled": true,
+    "label": "adv=off, KL=on",
+    "NDCG10": 0.7227944420997168,
+    "IPSDCG": 8.532860631519556
+  },
+  {
+    "kappa": 0.9,
+    "adv_enabled": false,
+    "kl_reg_enabled": false,
+    "label": "both off",
+    "NDCG10": 0.7205506557508875,
+    "IPSDCG": 8.509354816942912
+  },
+  {
+    "kappa": 1.3,
+    "adv_enabled": true,
+    "kl_reg_enabled": true,
+    "label": "full (adv=on, KL=on)",
+    "NDCG10": 0.7195242299082496,
+    "IPSDCG": 8.38135178907457
+  },
+  {
+    "kappa": 1.3,
+    "adv_enabled": true,
+    "kl_reg_enabled": false,
+    "label": "adv=on, KL=off",
+    "NDCG10": 0.7224583578739997,
+    "IPSDCG": 8.533852481522125
+  },
+  {
+    "kappa": 1.3,
+    "adv_enabled": false,
+    "kl_reg_enabled": true,
+    "label": "adv=off, KL=on",
+    "NDCG10": 0.7218143849171357,
+    "IPSDCG": 8.370949738449289
+  },
+  {
+    "kappa": 1.3,
+    "adv_enabled": false,
+    "kl_reg_enabled": false,
+    "label": "both off",
+    "NDCG10": 0.72314803065368,
+    "IPSDCG": 8.440291296492555
+  }
+]
